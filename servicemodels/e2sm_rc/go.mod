@@ -11,6 +11,6 @@ require (
 	gotest.tools v2.2.0+incompatible
 )
 
-replace github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_rc => /home/baicells/go_project/modified-onos-module/onos-e2-sm/servicemodels/e2sm_rc
+//replace github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_rc => /home/baicells/go_project/modified-onos-module/onos-e2-sm/servicemodels/e2sm_rc
 
 replace github.com/wangxn2015/onos-lib-go => /home/baicells/go_project/modified-onos-module/onos-lib-go
