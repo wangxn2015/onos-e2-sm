@@ -6,9 +6,9 @@ package servicemodel
 
 import (
 	"encoding/hex"
-	"github.com/onosproject/onos-e2-sm/servicemodels/e2sm_kpm_v2_go/pdubuilder"
-	e2smkpmv2 "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_kpm_v2_go/v2/e2sm-kpm-v2-go"
-	"github.com/onosproject/onos-lib-go/api/asn1/v1/asn1"
+	"github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_kpm_v2_go/pdubuilder"
+	e2smkpmv2 "github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_kpm_v2_go/v2/e2sm-kpm-v2-go"
+	"github.com/wangxn2015/onos-lib-go/api/asn1/v1/asn1"
 	"google.golang.org/protobuf/proto"
 	"gotest.tools/assert"
 	"testing"

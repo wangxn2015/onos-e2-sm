@@ -5,8 +5,8 @@
 package choiceOptions
 
 import (
-	e2smcommoniesv1 "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_rc/v1/e2sm-common-ies"
-	e2smrcv1 "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_rc/v1/e2sm-rc-ies"
+	e2smcommoniesv1 "github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_rc/v1/e2sm-common-ies"
+	e2smrcv1 "github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_rc/v1/e2sm-rc-ies"
 	"reflect"
 )
 

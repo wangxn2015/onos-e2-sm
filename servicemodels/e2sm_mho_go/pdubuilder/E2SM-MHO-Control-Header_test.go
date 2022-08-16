@@ -6,7 +6,7 @@ package pdubuilder
 
 import (
 	"encoding/hex"
-	"github.com/onosproject/onos-e2-sm/servicemodels/e2sm_mho_go/encoder"
+	"github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_mho_go/encoder"
 	"gotest.tools/assert"
 	"testing"
 )

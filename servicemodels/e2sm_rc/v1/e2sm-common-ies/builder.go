@@ -4,7 +4,7 @@
 
 package e2smcommonies
 
-import "github.com/onosproject/onos-lib-go/api/asn1/v1/asn1"
+import "github.com/wangxn2015/onos-lib-go/api/asn1/v1/asn1"
 
 func (m *RanfunctionName) SetRanFunctionInstance(rfi int32) *RanfunctionName {
 	m.RanFunctionInstance = &rfi

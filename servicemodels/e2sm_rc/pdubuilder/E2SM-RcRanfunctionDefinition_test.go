@@ -6,8 +6,8 @@ package pdubuilder
 
 import (
 	"encoding/hex"
-	"github.com/onosproject/onos-e2-sm/servicemodels/e2sm_rc/encoder"
-	e2smrcv1 "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_rc/v1/e2sm-rc-ies"
+	"github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_rc/encoder"
+	e2smrcv1 "github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_rc/v1/e2sm-rc-ies"
 	"gotest.tools/assert"
 	"testing"
 )

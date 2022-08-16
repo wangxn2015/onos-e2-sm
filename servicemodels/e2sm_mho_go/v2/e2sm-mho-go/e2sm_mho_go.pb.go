@@ -8,8 +8,8 @@ package e2smmho
 
 import (
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
-	e2sm_v2_ies "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_mho_go/v2/e2sm-v2-ies"
-	_ "github.com/onosproject/onos-lib-go/api/asn1/v1/asn1"
+	e2sm_v2_ies "github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_mho_go/v2/e2sm-v2-ies"
+	_ "github.com/wangxn2015/onos-lib-go/api/asn1/v1/asn1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

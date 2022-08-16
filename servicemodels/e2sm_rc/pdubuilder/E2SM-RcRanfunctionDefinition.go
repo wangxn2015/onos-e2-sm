@@ -5,9 +5,9 @@
 package pdubuilder
 
 import (
-	e2smcommonies "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_rc/v1/e2sm-common-ies"
-	e2smrcv1 "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_rc/v1/e2sm-rc-ies"
-	"github.com/onosproject/onos-lib-go/pkg/errors"
+	e2smcommonies "github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_rc/v1/e2sm-common-ies"
+	e2smrcv1 "github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_rc/v1/e2sm-rc-ies"
+	"github.com/wangxn2015/onos-lib-go/pkg/errors"
 )
 
 func CreateE2SmRcRanfunctionDefinition(ranFunctionShortName string, ranFunctionOID string, ranFunctionDescription string) (*e2smrcv1.E2SmRcRanfunctionDefinition, error) {

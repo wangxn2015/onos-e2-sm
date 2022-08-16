@@ -4,7 +4,7 @@
 
 package e2smrcies
 
-import e2smcommonies "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_rc/v1/e2sm-common-ies"
+import e2smcommonies "github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_rc/v1/e2sm-common-ies"
 
 func (m *EventTriggerCellInfoItem) SetLogicalOr(lor LogicalOr) *EventTriggerCellInfoItem {
 	m.LogicalOr = &lor

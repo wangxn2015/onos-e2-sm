@@ -4,8 +4,8 @@
 package pdubuilder
 
 import (
-	e2smmhov2 "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_mho_go/v2/e2sm-mho-go"
-	"github.com/onosproject/onos-lib-go/pkg/errors"
+	e2smmhov2 "github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_mho_go/v2/e2sm-mho-go"
+	"github.com/wangxn2015/onos-lib-go/pkg/errors"
 )
 
 func CreateE2SmMhoControlHeader(controlMessagePriority int32) (*e2smmhov2.E2SmMhoControlHeader, error) {

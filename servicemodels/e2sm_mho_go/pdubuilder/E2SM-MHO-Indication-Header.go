@@ -4,9 +4,9 @@
 package pdubuilder
 
 import (
-	e2smmhov2 "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_mho_go/v2/e2sm-mho-go"
-	e2smv2 "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_mho_go/v2/e2sm-v2-ies"
-	"github.com/onosproject/onos-lib-go/pkg/errors"
+	e2smmhov2 "github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_mho_go/v2/e2sm-mho-go"
+	e2smv2 "github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_mho_go/v2/e2sm-v2-ies"
+	"github.com/wangxn2015/onos-lib-go/pkg/errors"
 )
 
 func CreateE2SmMhoIndicationHeader(cgi *e2smv2.Cgi) (*e2smmhov2.E2SmMhoIndicationHeader, error) {

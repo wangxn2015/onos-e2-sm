@@ -6,10 +6,10 @@ package kpmv2
 
 import (
 	"encoding/hex"
-	"github.com/onosproject/onos-e2-sm/servicemodels/e2sm_kpm_v2_go/encoder"
-	"github.com/onosproject/onos-e2-sm/servicemodels/e2sm_kpm_v2_go/pdubuilder"
-	e2smkpmv2 "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_kpm_v2_go/v2/e2sm-kpm-v2-go"
-	hexlib "github.com/onosproject/onos-lib-go/pkg/hex"
+	"github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_kpm_v2_go/encoder"
+	"github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_kpm_v2_go/pdubuilder"
+	e2smkpmv2 "github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_kpm_v2_go/v2/e2sm-kpm-v2-go"
+	hexlib "github.com/wangxn2015/onos-lib-go/pkg/hex"
 	"gotest.tools/assert"
 	"testing"
 )

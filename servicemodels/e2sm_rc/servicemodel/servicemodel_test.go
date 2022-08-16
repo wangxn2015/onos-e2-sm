@@ -6,10 +6,10 @@ package servicemodel
 
 import (
 	"encoding/hex"
-	"github.com/onosproject/onos-e2-sm/servicemodels/e2sm_rc/pdubuilder"
-	e2smcommonies "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_rc/v1/e2sm-common-ies"
-	e2smrcv1 "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_rc/v1/e2sm-rc-ies"
-	"github.com/onosproject/onos-lib-go/api/asn1/v1/asn1"
+	"github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_rc/pdubuilder"
+	e2smcommonies "github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_rc/v1/e2sm-common-ies"
+	e2smrcv1 "github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_rc/v1/e2sm-rc-ies"
+	"github.com/wangxn2015/onos-lib-go/api/asn1/v1/asn1"
 	"google.golang.org/protobuf/proto"
 	"gotest.tools/assert"
 	"testing"

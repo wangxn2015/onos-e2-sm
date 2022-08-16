@@ -4,8 +4,8 @@
 package pdubuilder
 
 import (
-	e2smrcprev2 "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_rc_pre_go/v2/e2sm-rc-pre-v2-go"
-	"github.com/onosproject/onos-lib-go/pkg/errors"
+	e2smrcprev2 "github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_rc_pre_go/v2/e2sm-rc-pre-v2-go"
+	"github.com/wangxn2015/onos-lib-go/pkg/errors"
 )
 
 func CreateE2SmRcPreIndicationMsgFormat1(plmnIDBytes []byte, arfcn *e2smrcprev2.Arfcn, cellSize e2smrcprev2.CellSize,

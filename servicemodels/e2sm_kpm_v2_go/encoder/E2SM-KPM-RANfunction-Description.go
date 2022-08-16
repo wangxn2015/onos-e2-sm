@@ -6,9 +6,9 @@ package encoder
 
 import (
 	"encoding/hex"
-	e2smkpmv2 "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_kpm_v2_go/v2/e2sm-kpm-v2-go"
-	"github.com/onosproject/onos-lib-go/pkg/asn1/aper"
-	"github.com/onosproject/onos-lib-go/pkg/errors"
+	e2smkpmv2 "github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_kpm_v2_go/v2/e2sm-kpm-v2-go"
+	"github.com/wangxn2015/onos-lib-go/pkg/asn1/aper"
+	"github.com/wangxn2015/onos-lib-go/pkg/errors"
 )
 
 func PerEncodeE2SmKpmRanFunctionDescription(rfd *e2smkpmv2.E2SmKpmRanfunctionDescription) ([]byte, error) {

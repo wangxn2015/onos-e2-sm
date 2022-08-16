@@ -5,7 +5,7 @@
 //nolint
 package main
 
-import "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_rc/servicemodel"
+import "github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_rc/servicemodel"
 
 // ServiceModel is the exported symbol that gives an entry point to this shared module
 var ServiceModel servicemodel.RCServiceModel

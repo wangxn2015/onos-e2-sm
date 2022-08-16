@@ -5,8 +5,8 @@
 package pdubuilder
 
 import (
-	e2smrcv1 "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_rc/v1/e2sm-rc-ies"
-	"github.com/onosproject/onos-lib-go/pkg/errors"
+	e2smrcv1 "github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_rc/v1/e2sm-rc-ies"
+	"github.com/wangxn2015/onos-lib-go/pkg/errors"
 )
 
 func CreateE2SmRcCallProcessIDFormat1(ranCallProcessID int32) (*e2smrcv1.E2SmRcCallProcessId, error) {

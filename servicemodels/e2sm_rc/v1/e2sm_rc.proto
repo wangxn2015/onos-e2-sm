@@ -11,7 +11,7 @@ SPDX-License-Identifier: Apache-2.0
 syntax = "proto3";
 
 package e2sm_rc.v1;
-option go_package = "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_rc/v1/e2sm-rc-ies";
+option go_package = "github.com/wangxn2015/onos-e2-sm/servicemodels/e2sm_rc/v1/e2sm-rc-ies";
 
 import "e2sm_rc/v1/e2sm_common_ies.proto";
 import "validate/v1/validate.proto";
