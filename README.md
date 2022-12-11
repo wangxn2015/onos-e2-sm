@@ -3,7 +3,7 @@ SPDX-FileCopyrightText: 2019-present Open Networking Foundation <info@opennetwor
 
 SPDX-License-Identifier: Apache-2.0
 -->
-1.8.91  from ONF 0.8.22-dev
+0.8.22 from ONF 0.8.22-dev
 # onos-e2-sm
 [O-RAN] defines the **E2 Service Models** in the form of "ASN.1" specifications. 
 
